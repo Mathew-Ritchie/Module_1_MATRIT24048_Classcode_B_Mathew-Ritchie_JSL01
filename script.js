@@ -1,7 +1,7 @@
 function validateSyntax() {
   let input = document.getElementById("petInput").value;
 
-  let pattern = /^pet_/;
+  let pattern = /^pet_+[\d\w]+/;
 
   if (pattern.test(input)) {
     document.getElementById("result").innerText = "Valid Syntax";
