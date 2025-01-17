@@ -7,8 +7,8 @@ function validateSyntax() {
   //if else statement to confirm if input value follows Regex pattern requirments or not.
   if (pattern.test(input)) {
     //The .test method is used to check if the perameter which is entered into the input matches the regex pattern parameters
-    document.getElementById("result").innerText = "Valid Syntax";
+    document.getElementById("result").innerText = "Valid Syntax 🟢";
   } else {
-    document.getElementById("result").innerText = "Invalid Syntax";
+    document.getElementById("result").innerText = "Invalid Syntax 🔴";
   }
 }
